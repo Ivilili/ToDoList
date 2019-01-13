@@ -6,7 +6,7 @@ class List extends Component {
 
 	render() {
 		return (
-			<div className="List">
+			<div className="List col-lg-6 col-8 mx-auto">
 				{this.props.todos.map((todo, index) => {
 					return <Task key={index} index={index} handleClick={this.props.handleClick} todo={todo} />;
 				})}

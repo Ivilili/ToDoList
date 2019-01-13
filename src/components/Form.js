@@ -6,8 +6,9 @@ class Form extends Component {
 		return (
 			<div className="Form">
 				<h1 className="display-2 text-center">ToDo List</h1>
-				<form onSubmit={(evt) => this.props.handleSubmit(evt)}>
-					<Input onChange={(evt) => this.props.handleChange(evt)} value={this.props.inputValue} />
+				<p className="lead text-center">Welcome to my ToDo List Applications</p>
+				<form className="col-lg-6 col-8 mx-auto" onSubmit={(e) => this.props.handleSubmit(e)}>
+					<Input onChange={(e) => this.props.handleChange(e)} value={this.props.inputValue} />
 				</form>
 			</div>
 		);

@@ -1,10 +1,9 @@
 body {
+	background-image: url('https://i.postimg.cc/7h6868bw/clem-onojeghuo-207790-unsplash.jpg');
 	min-height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
-	font-size: 1.3rem;
 }
 .App {
 	position: absolute;
@@ -13,12 +12,20 @@ body {
 	top: 0;
 	bottom: 0;
 	background-color: rgba(31, 34, 118, 0.5);
+	color: white;
+	font-size: 1.3rem;
 }
 h1 {
 	text-align: center;
-	margin: auto;
+	margin: auto 2rem;
 }
 .Task {
-	text-align: center;
-	padding: 5%;
+	border-bottom: 1px solid white;
+	padding: 0.5rem 0 0.5rem 0;
+	margin: 2rem 1rem 0 1rem;
+}
+
+.newTask {
+	padding: 0.5rem 0 0.5rem 0;
+	margin: 0.5rem 1rem 0 0;
 }
