@@ -9,8 +9,7 @@ class Task extends Component {
 					{this.props.todo.value}
 				</span>
 				<Button color="primary" onClick={() => this.props.handleClick(this.props.index)}>
-					{' '}
-					{this.props.todo.done ? 'Undo' : 'Complete'}{' '}
+					{this.props.todo.done ? 'Undo' : 'Complete'}
 				</Button>
 			</div>
 		);
